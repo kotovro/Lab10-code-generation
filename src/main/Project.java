@@ -13,11 +13,6 @@ public class Project {
 		// TODO - implement Project.getProjectCompleteANumberOfHours
 		throw new UnsupportedOperationException();
 	}
-
-	public String getName() {
-		return this.name;
-	}
-
 	/**
 	 * 
 	 * @param name
@@ -25,17 +20,16 @@ public class Project {
 	public void setName(String name) {
 		this.name = name;
 	}
+	public Date getStart() {
+		return this.start;
+	}
 
 	/**
 	 * 
-	 * @param start
+	 * @param hours
 	 */
-	public void setStart(Date start) {
-		this.start = start;
-	}
-
-	public Date getEnd() {
-		return this.end;
+	public void setHours(int hours) {
+		this.hours = hours;
 	}
 
 	/**
@@ -45,9 +39,4 @@ public class Project {
 	public void setEnd(Date end) {
 		this.end = end;
 	}
-
-	public int getHours() {
-		return this.hours;
-	}
-
 }

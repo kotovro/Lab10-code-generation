@@ -44,4 +44,8 @@ public class University {
 		this.name = name;
 	}
 
+	public char getPhone() {
+		return this.phone;
+	}
+
 }

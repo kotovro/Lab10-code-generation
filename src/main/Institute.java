@@ -19,14 +19,6 @@ public class Institute {
 		return this.name;
 	}
 
-	/**
-	 * 
-	 * @param name
-	 */
-	public void setName(String name) {
-		this.name = name;
-	}
-
 	public String getAddress() {
 		return this.address;
 	}

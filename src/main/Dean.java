@@ -24,31 +24,6 @@ public class Dean extends Employee {
 
 	/**
 	 * 
-	 * @param SSnumber
-	 */
-	public void setSSnumber(int SSnumber) {
-		// TODO - implement Dean.setSSnumber
-		throw new UnsupportedOperationException();
-	}
-
-	public String getName() {
-		return this.name;
-	}
-
-	/**
-	 * 
-	 * @param name
-	 */
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	public String getEmail() {
-		return this.email;
-	}
-
-	/**
-	 * 
 	 * @param email
 	 */
 	public void setEmail(String email) {
